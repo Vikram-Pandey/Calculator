@@ -1,0 +1,95 @@
+* {
+  font-family: cursive;
+  font-size: 20px;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-left: 40%;
+  margin-right: 40%;
+  height: 400px;
+  width: 320px;
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  background-color: #eee;
+  height: 100px;
+  width: 300px;
+  border-radius: 5px;
+  margin-top: 5px;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.clearDelete {
+  display: flex;
+  justify-content: space-between;
+  width: 310px;
+}
+
+.item1,
+.item2 {
+  flex: 1 1 auto;
+  height: 50px;
+  margin: 0 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.item1 {
+  background-color: lightcoral;
+}
+
+.item2 {
+  background-color: lightblue;
+}
+
+.numbers {
+  display: flex;
+  width: 310px;
+  height: 50px;
+  justify-content: space-between;
+}
+
+.row1 {
+  flex: 1;
+  margin: 0 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+button:active {
+  background-color: yellow;
+  border-color: green;
+  color: black;
+}
+
+.screen-previous {
+  display: flex;
+  flex: 1;
+  font-size: 20px;
+  justify-content: flex-end;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.screen-current {
+  flex: 1;
+  font-size: 30px;
+  /* justify-content: flex-end; */
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: auto;
+}
